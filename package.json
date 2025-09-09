@@ -1,0 +1,21 @@
+{
+  "name": "feedgot",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@feedgot/tsconfig": "workspace:*",
+    "prettier": "^3.6.2",
+    "turbo": "^2.5.5",
+    "typescript": "5.7.3"
+  }
+}

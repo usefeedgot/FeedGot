@@ -1,0 +1,3 @@
+{
+  "extends": "@feedgot/tsconfig/base.json"
+}
